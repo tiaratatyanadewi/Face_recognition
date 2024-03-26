@@ -1,0 +1,116 @@
+body {
+  width: auto;
+  height: auto;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background-color: #e5edf8;
+}
+
+.c_page4-rectangle {
+  width: 550px;
+  height: 500px;
+  margin: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: #fff;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position:absolute;
+  top: 8%;
+  left: 3%;
+  padding: 200px;
+}
+
+.c_page4-rectangle1 {
+  width: 650px;
+  height: 680px;
+  margin: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: #fff;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position:absolute;
+  top: 4%;
+  left: 50%;
+  padding: 200px;
+}
+
+.c_page4-rectangle2 {
+  width: 175px;
+  height: 50px;
+  margin: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: #fff;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position:absolute;
+  top: 650px;
+  left: 10px;
+  padding: 20px;
+  z-index: 1;
+  font-size: 0;
+}
+
+.c_page4-rectangle2:hover {
+  background-color: #969595; /* Mengubah warna latar belakang saat dihover */
+}
+  
+.c_page4-text,
+.c_page4-text01,
+.c_page4-text:hover,
+.c_page4-text01:hover {
+  color: #000;
+  font-size: 20px;
+  font-style: normal;
+  font-family: "Open Sans Hebrew Condensed", sans-serif;
+  font-weight: 700;
+  line-height: 35px;
+  display: flex;
+  text-align: left;
+  position: relative;
+  margin-top: 640px;
+  margin-left: 70px;
+  z-index: 2;
+  text-decoration: none;
+  pointer-events: none;
+}
+
+.c_page4-rectangle3 {
+  width: 885px;
+  height: 1px;
+  margin: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: #000;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position:absolute;
+  top: 42.7%;
+  left: 15%;
+  transform: rotate(90deg);
+  padding: 2px;
+}
+
+.c_page4-rectangle4 {
+  width: 680px;
+  height: 1px;
+  margin: 0;
+  display: block;
+  border-radius: 10px;
+  background-color: #000;
+  justify-content: center;
+  box-sizing: border-box;
+  border-radius: 10px;
+  position:absolute;
+  top: 47.5%;
+  left: 49%;
+  transform: rotate(90deg);
+  padding: 2px;
+}
